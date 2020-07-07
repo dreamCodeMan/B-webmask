@@ -20,7 +20,7 @@ type SegmentsData struct {
 }
 
 func main() {
-    webMaskName := "/Users/Fang/Downloads/b-webmask-unpacker-master/test2/180942863_25_1.enhance.webmask"
+    webMaskName := "./test.webmask"
     f, _ := os.Open(webMaskName)
     stat, err := f.Stat()
     if err != nil {
